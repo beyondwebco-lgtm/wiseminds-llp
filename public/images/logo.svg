@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 84" fill="none" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wmRoyal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2446A8" />
+      <stop offset="100%" stop-color="#142B75" />
+    </linearGradient>
+    <linearGradient id="wmGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F4C430" />
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#0B1739" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- BRANDMARK: The Flower, The Yellow Dot, The Arc -->
+  <g transform="translate(10, 6)">
+    <!-- The Arc: representing commitment to enabling business progress -->
+    <path d="M 6 56 C 20 68, 52 68, 66 54 C 58 63, 30 65, 14 57 Z" fill="#2446A8" opacity="0.9" />
+    <path d="M 12 59 C 28 69, 58 66, 68 50 C 60 60, 34 65, 18 58 Z" fill="url(#wmGold)" />
+
+    <!-- The Flower: structured progressive petals -->
+    <!-- Left petal -->
+    <path d="M 36 44 C 22 42, 14 30, 20 18 C 28 24, 34 34, 36 44 Z" fill="#1B3585" />
+    <!-- Center-left petal -->
+    <path d="M 36 44 C 26 32, 26 16, 36 8 C 40 18, 40 32, 36 44 Z" fill="#2446A8" />
+    <!-- Center-right petal -->
+    <path d="M 36 44 C 42 32, 44 16, 44 8 C 48 18, 46 32, 36 44 Z" fill="#2E55C7" />
+    <!-- Right petal -->
+    <path d="M 36 44 C 46 34, 54 24, 52 18 C 50 30, 44 40, 36 44 Z" fill="#1B3585" opacity="0.85" />
+
+    <!-- Core blooming bud -->
+    <path d="M 36 42 C 32 34, 34 26, 38 20 C 42 26, 42 34, 36 42 Z" fill="#3B66E8" />
+
+    <!-- The Yellow Dot: spark that ignites businesses to kickstart, sustain and scale -->
+    <circle cx="39" cy="8" r="5" fill="url(#wmGold)" filter="url(#glow)" />
+    <circle cx="39" cy="8" r="2" fill="#FFFFFF" opacity="0.7" />
+    
+    <!-- Base anchor leaf -->
+    <ellipse cx="36" cy="46" rx="8" ry="3" fill="#0B1739" opacity="0.25" />
+  </g>
+
+  <!-- WORDMARK -->
+  <g transform="translate(92, 0)">
+    <text x="0" y="44" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="34" letter-spacing="1.5" fill="#0B1739">WISE<tspan fill="#2446A8">MINDS</tspan></text>
+    <text x="1" y="62" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="9.5" letter-spacing="3.8" fill="#475569">BUSINESS CONSULTING LLP</text>
+    <text x="1" y="74" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="7.5" letter-spacing="2.2" fill="#F4C430">PURPOSE <tspan fill="#2446A8">•</tspan> PROCESS <tspan fill="#2446A8">•</tspan> PRACTICE</text>
+  </g>
+</svg>
