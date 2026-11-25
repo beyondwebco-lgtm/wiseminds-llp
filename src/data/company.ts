@@ -25,9 +25,9 @@ export const COMPANY = {
     },
   },
   colors: {
-    royalBlue: "#2446A8",
+    royalBlue: "#00129C",
     deepNavy: "#0B1739",
-    goldenYellow: "#F4C430",
+    goldenYellow: "#FDE805",
     offWhite: "#F7F8FC",
     white: "#FFFFFF",
     textGrey: "#475569",
@@ -59,9 +59,9 @@ export const COMPANY = {
     },
   ],
   brandmarkMeaning: {
-    flower: "Represents a flourishing, structured business progressing from its early stages toward sustainable growth.",
-    yellowDot: "Symbolizes the spark that ignites businesses to kickstart, sustain and scale.",
-    arc: "Represents the brand's commitment to enabling business progress and growth.",
+    flower: "Represents a flourishing, structured business progressing from strong foundational roots toward sustainable maturity and growth.",
+    yellowDot: "Symbolizes the spark that ignites businesses to kickstart, sustain and scale—embodied in the golden yellow accent crowning the 'i' of Wise.",
+    arc: "Represents the upward momentum and commitment to enabling continuous business expansion—symbolized by the ascending golden corner accent above 'e'.",
   },
   colorSignificance: {
     royalBlue: "Represents trust, reliability, authority, professionalism, wisdom, stability and confidence.",

@@ -72,16 +72,16 @@ export function Header() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
-            {/* Logo */}
+            {/* Official Logo */}
             <Link
               href="/"
-              className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-[#2446A8] rounded-md"
+              className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-[#00129C] rounded-md py-1"
               aria-label="WISEMINDS Business Consulting LLP Homepage"
             >
-              <div className="relative w-44 sm:w-56 h-12">
+              <div className="relative w-48 sm:w-60 h-12 sm:h-14">
                 <Image
-                  src="/images/logo.svg"
-                  alt="WISEMINDS BUSINESS CONSULTING LLP"
+                  src="/images/logo-horizontal-light.png"
+                  alt="Wise - WISEMINDS BUSINESS CONSULTING LLP"
                   fill
                   priority
                   className="object-contain object-left"

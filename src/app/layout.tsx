@@ -67,7 +67,7 @@ export default function RootLayout({
     name: COMPANY.name,
     alternateName: ["WBC", "WISEMINDS"],
     url: "https://www.wiseminds.in",
-    logo: "https://www.wiseminds.in/images/logo.svg",
+    logo: "https://www.wiseminds.in/images/official-logo.jpg",
     description: COMPANY.description,
     address: {
       "@type": "PostalAddress",
@@ -88,7 +88,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/images/logo-mark.svg" type="image/svg+xml" />
+        <link rel="icon" href="/images/logo-mark.png" type="image/png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

@@ -230,24 +230,24 @@ export default function AboutPage() {
           {/* Interactive Visual Breakdown */}
           <div className="mt-16 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Center Brandmark showcase */}
-            <div className="lg:col-span-5 flex flex-col items-center justify-center p-10 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
-              <div className="relative w-48 h-48 sm:w-56 sm:h-56">
+            <div className="lg:col-span-5 flex flex-col items-center justify-center p-8 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <div className="relative w-full max-w-[320px] aspect-[4/3] rounded-xl overflow-hidden shadow-2xl border border-white/20">
                 <Image
-                  src="/images/logo-white.svg"
+                  src="/images/official-logo.jpg"
                   alt="WISEMINDS Official Brandmark"
                   fill
-                  className="object-contain"
+                  className="object-cover"
                 />
               </div>
               <div className="mt-6 text-center">
-                <span className="text-xs font-bold text-[#F4C430] uppercase tracking-widest">
-                  Official Insignia
+                <span className="text-xs font-bold text-[#FDE805] uppercase tracking-widest">
+                  Official Client Insignia
                 </span>
                 <p className="text-sm font-semibold text-white mt-1">
                   WISEMINDS BUSINESS CONSULTING LLP
                 </p>
                 <p className="text-xs text-slate-400 mt-1">
-                  Purpose. Process. Practice.
+                  Purpose | Process | Practice
                 </p>
               </div>
             </div>
@@ -257,39 +257,39 @@ export default function AboutPage() {
               {/* Element 1: The Flower */}
               <div className="p-6 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
                 <div className="flex items-center gap-3 mb-2">
-                  <div className="w-8 h-8 rounded-full bg-[#2446A8] text-white flex items-center justify-center font-bold text-xs">
+                  <div className="w-8 h-8 rounded-full bg-[#00129C] border border-[#FDE805]/40 text-[#FDE805] flex items-center justify-center font-bold text-xs">
                     01
                   </div>
-                  <h4 className="text-lg font-bold text-white">The Flower</h4>
+                  <h4 className="text-lg font-bold text-white">The Radiating Palmette Flower</h4>
                 </div>
                 <p className="text-sm text-slate-300 leading-relaxed pl-11">
-                  {COMPANY.brandmarkMeaning.flower} Each progressive petal signifies structured phases of maturity—from seedling conceptualization to a fully blossoming, resilient corporate enterprise.
+                  {COMPANY.brandmarkMeaning.flower} The 11 radiating petals rooted in classical symmetrical flourish scrolls and a horizontal barred pedestal symbolize structured enterprise maturity progressing from strong operational foundations into sustained, flourishing growth.
                 </p>
               </div>
 
               {/* Element 2: The Yellow Dot */}
               <div className="p-6 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
                 <div className="flex items-center gap-3 mb-2">
-                  <div className="w-8 h-8 rounded-full bg-[#F4C430] text-[#0B1739] flex items-center justify-center font-bold text-xs">
+                  <div className="w-8 h-8 rounded-full bg-[#FDE805] text-[#0B1739] flex items-center justify-center font-bold text-xs">
                     02
                   </div>
-                  <h4 className="text-lg font-bold text-[#F4C430]">The Yellow Dot</h4>
+                  <h4 className="text-lg font-bold text-[#FDE805]">The Yellow Spark on &lsquo;i&rsquo;</h4>
                 </div>
                 <p className="text-sm text-slate-300 leading-relaxed pl-11">
-                  {COMPANY.brandmarkMeaning.yellowDot} It represents the catalyst of strategic insight, intellectual energy, and focus that turns dormant capability into measurable enterprise execution.
+                  {COMPANY.brandmarkMeaning.yellowDot} It represents the catalyst of strategic insight, purpose, and focus that ignites businesses to kickstart, navigate early friction, and execute with precision.
                 </p>
               </div>
 
-              {/* Element 3: The Arc */}
+              {/* Element 3: The Ascending Arc Accent */}
               <div className="p-6 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
                 <div className="flex items-center gap-3 mb-2">
-                  <div className="w-8 h-8 rounded-full bg-[#2446A8] text-white flex items-center justify-center font-bold text-xs">
+                  <div className="w-8 h-8 rounded-full bg-[#00129C] border border-[#FDE805]/40 text-[#FDE805] flex items-center justify-center font-bold text-xs">
                     03
                   </div>
-                  <h4 className="text-lg font-bold text-white">The Arc</h4>
+                  <h4 className="text-lg font-bold text-white">The Ascending Corner Accent on &lsquo;e&rsquo;</h4>
                 </div>
                 <p className="text-sm text-slate-300 leading-relaxed pl-11">
-                  {COMPANY.brandmarkMeaning.arc} The upward curvature provides a secure foundation, underpinning the enterprise with process discipline, governance, and sustained momentum toward expansion.
+                  {COMPANY.brandmarkMeaning.arc} The forward-pointing triangular spark positioned above the letter &lsquo;e&rsquo; embodies continuous enterprise advancement, scaling momentum, and long-term business enablement.
                 </p>
               </div>
             </div>

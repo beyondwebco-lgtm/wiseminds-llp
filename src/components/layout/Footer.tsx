@@ -53,10 +53,10 @@ export function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
             {/* Column 1: Company Profile & Brandmark */}
             <div className="lg:col-span-2 space-y-5">
-              <div className="relative w-56 h-12">
+              <div className="relative w-56 sm:w-64 h-14">
                 <Image
-                  src="/images/logo-white.svg"
-                  alt="WISEMINDS BUSINESS CONSULTING LLP"
+                  src="/images/logo-horizontal-dark.png"
+                  alt="Wise - WISEMINDS BUSINESS CONSULTING LLP"
                   fill
                   className="object-contain object-left"
                 />

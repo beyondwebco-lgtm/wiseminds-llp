@@ -216,8 +216,8 @@ export default function HomePage() {
                 <div className="flex items-center gap-3 mb-6 pb-6 border-b border-slate-100">
                   <div className="relative w-14 h-14 shrink-0">
                     <Image
-                      src="/images/logo-mark.svg"
-                      alt="WISEMINDS Symbol"
+                      src="/images/logo-mark.png"
+                      alt="WISEMINDS Official Emblem"
                       fill
                       className="object-contain"
                     />
