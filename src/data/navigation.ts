@@ -37,7 +37,7 @@ export const FOOTER_SECTIONS = {
   company: [
     { label: "About WISEMINDS", href: "/about" },
     { label: "Our Approach (P3)", href: "/approach" },
-    { label: "Brand Identity", href: "/about#brand-identity" },
+    { label: "Brand Identity", href: "/brand-identity" },
     { label: "Contact Us", href: "/contact" },
     { label: "Schedule Consultation", href: "/contact" },
   ],

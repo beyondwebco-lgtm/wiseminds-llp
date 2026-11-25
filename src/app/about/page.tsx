@@ -260,10 +260,10 @@ export default function AboutPage() {
                   <div className="w-8 h-8 rounded-full bg-[#00129C] border border-[#FDE805]/40 text-[#FDE805] flex items-center justify-center font-bold text-xs">
                     01
                   </div>
-                  <h4 className="text-lg font-bold text-white">The Radiating Palmette Flower</h4>
+                  <h4 className="text-lg font-bold text-white">The Flower</h4>
                 </div>
                 <p className="text-sm text-slate-300 leading-relaxed pl-11">
-                  {COMPANY.brandmarkMeaning.flower} The 11 radiating petals rooted in classical symmetrical flourish scrolls and a horizontal barred pedestal symbolize structured enterprise maturity progressing from strong operational foundations into sustained, flourishing growth.
+                  Represents a flourishing, well-structured business supported by WISEMINDS services, progressing towards sustainable growth. Its progressive petals symbolize the journey of an enterprise from its initial conceptualization through structured development, operational maturity, and sustainable growth.
                 </p>
               </div>
 
@@ -273,24 +273,34 @@ export default function AboutPage() {
                   <div className="w-8 h-8 rounded-full bg-[#FDE805] text-[#0B1739] flex items-center justify-center font-bold text-xs">
                     02
                   </div>
-                  <h4 className="text-lg font-bold text-[#FDE805]">The Yellow Spark on &lsquo;i&rsquo;</h4>
+                  <h4 className="text-lg font-bold text-[#FDE805]">The Yellow Dot</h4>
                 </div>
                 <p className="text-sm text-slate-300 leading-relaxed pl-11">
-                  {COMPANY.brandmarkMeaning.yellowDot} It represents the catalyst of strategic insight, purpose, and focus that ignites businesses to kickstart, navigate early friction, and execute with precision.
+                  Represents the spark that ignites business potential. It represents strategic insight, intellectual energy, innovation, and the confidence required to kickstart, sustain, and scale a business.
                 </p>
               </div>
 
-              {/* Element 3: The Ascending Arc Accent */}
+              {/* Element 3: The Arc */}
               <div className="p-6 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-8 h-8 rounded-full bg-[#00129C] border border-[#FDE805]/40 text-[#FDE805] flex items-center justify-center font-bold text-xs">
                     03
                   </div>
-                  <h4 className="text-lg font-bold text-white">The Ascending Corner Accent on &lsquo;e&rsquo;</h4>
+                  <h4 className="text-lg font-bold text-white">The Arc</h4>
                 </div>
                 <p className="text-sm text-slate-300 leading-relaxed pl-11">
-                  {COMPANY.brandmarkMeaning.arc} The forward-pointing triangular spark positioned above the letter &lsquo;e&rsquo; embodies continuous enterprise advancement, scaling momentum, and long-term business enablement.
+                  Represents the business progress, advancement, and growth enabled through WISEMINDS consulting services. Its upward curvature symbolizes continuous advancement, operational stability, structured guidance, and sustainable enterprise expansion.
                 </p>
+              </div>
+
+              <div className="pt-2 pl-11">
+                <Link
+                  href="/brand-identity"
+                  className="inline-flex items-center gap-2 text-xs font-bold text-[#FDE805] hover:underline"
+                >
+                  <span>Explore complete brand philosophy & colour psychology</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
               </div>
             </div>
           </div>
