@@ -59,12 +59,17 @@ export const COMPANY = {
     },
   ],
   brandmarkMeaning: {
-    flower: "Represents a flourishing, structured business progressing from strong foundational roots toward sustainable maturity and growth.",
-    yellowDot: "Symbolizes the spark that ignites businesses to kickstart, sustain and scale—embodied in the golden yellow accent crowning the 'i' of Wise.",
-    arc: "Represents the upward momentum and commitment to enabling continuous business expansion—symbolized by the ascending golden corner accent above 'e'.",
+    flower:
+      "The intertwined flower sitting firmly above Brandmark reflects a Flourishing yet well defined Business from Early Stage to Scale.",
+    yellowDot:
+      "The Yellow Dot on 'I' represents a Prompt ignition of the Spark in Business to Kickstart, Sustain & Scale Business.",
+    arc:
+      "The Ark towards extreme right over the Brandmark signifies the assured Growth offered through defined service offerings of WBC*.",
   },
   colorSignificance: {
-    royalBlue: "Represents trust, reliability, authority, professionalism, wisdom, stability and confidence.",
-    goldenYellow: "Represents optimism, intellectual clarity, confidence, prosperity, renewal and business growth.",
+    royalBlue:
+      "Most widely applied Color Signifies Regality, Luxury of high status, Trust, Reliability, Protection, Calmness & Depth.",
+    goldenYellow:
+      "Spiritually attracts Joy, Optimism, Wisdom, Intellect, Personal Power, Confidence, Prosperity, and Divine Enlightenment, driving Business Growth.",
   },
 };

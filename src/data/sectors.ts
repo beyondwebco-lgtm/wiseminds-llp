@@ -16,14 +16,14 @@ export const SECTORS: SectorDetail[] = [
     id: "integrated-media",
     slug: "integrated-media",
     title: "Integrated Media Management",
-    tagline: "Transforming traditional publishing and broadcasting into unified multi-channel operations",
+    tagline: "Publishing, Television, Digital Media & Radio Management",
     description:
-      "With over a century of collective background in print, broadcasting, and modern digital ecosystems, WISEMINDS provides deep operational consulting for media houses, content studios, and digital publishers navigating rapid digital disruption.",
+      "With over a century of collective background in print, broadcasting, radio, and modern digital ecosystems, WISEMINDS provides deep operational consulting for media houses, broadcast networks, content studios, and digital publishers navigating rapid digital disruption.",
     subsectors: [
-      "Print & Digital Publishing",
+      "Publishing (Print & Digital)",
       "Television & Broadcast Production",
       "Digital Media Platforms & OTT",
-      "Social Media Ecosystems & Creator Networks",
+      "Radio & Audio Broadcasting Networks",
     ],
     keyChallenges: [
       "Migrating legacy editorial workflows into agile multi-format digital pipelines",
@@ -79,15 +79,15 @@ export const SECTORS: SectorDetail[] = [
   {
     id: "rural-development",
     slug: "rural-development",
-    title: "Rural Development & Rurban Frameworks",
-    tagline: "Bridging the rural-urban divide with scalable enterprise and livelihood frameworks",
+    title: "Rural Development",
+    tagline: "Evolving & establishing Integrated Rurban Development Framework by leveraging prevailing successful Practices",
     description:
-      "WISEMINDS designs and executes the Integrated Rurban Development Framework, translating proven socio-economic development practices into self-sustaining local micro-economies and community enterprises.",
+      "WISEMINDS specializes in evolving and establishing the Integrated Rurban Development Framework by leveraging prevailing successful practices, translating field-tested socio-economic frameworks into self-sustaining local micro-economies and community enterprises.",
     subsectors: [
       "Integrated Rurban Development Framework (IRDF)",
+      "Leveraging Prevailing Successful Practices",
       "Rural Micro-Enterprise Incubation",
       "Community Livelihood Cooperatives",
-      "Decentralized Rural Services & Infrastructure Models",
     ],
     keyChallenges: [
       "Economic migration due to lack of non-farm employment opportunities",
@@ -111,13 +111,13 @@ export const SECTORS: SectorDetail[] = [
   {
     id: "renewable-energy",
     slug: "renewable-energy",
-    title: "Renewable Energy Management",
-    tagline: "Engineering Compressed Biogas plants and conceptualizing Net Zero campuses",
+    title: "Renewable Energies Management",
+    tagline: "Compressed Biogas Plants Design & Establishment | Net Zero Campuses Concepts to Establishment",
     description:
-      "We advise industrial clients, agricultural processors, and educational institutions on the technical and commercial viability of Compressed Biogas (CBG) infrastructure and Net Zero campus transformations.",
+      "We advise industrial enterprises, agricultural processors, and educational institutions on the technical, operational, and commercial establishment of Compressed Biogas (CBG) plants and Net Zero campus conceptualization.",
     subsectors: [
-      "Compressed Biogas (CBG) Plant Design & Establishment",
-      "Net Zero Campus Conceptualization & Roadmap",
+      "Compressed Biogas (CBG) Plants Design & Establishment",
+      "Net Zero Campuses Concepts to Establishment",
       "Biomass Feedstock Supply Chain Management",
       "Carbon Credit & Renewable Energy Governance",
     ],

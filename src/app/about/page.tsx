@@ -258,12 +258,12 @@ export default function AboutPage() {
               <div className="p-6 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-8 h-8 rounded-full bg-[#00129C] border border-[#FDE805]/40 text-[#FDE805] flex items-center justify-center font-bold text-xs">
-                    01
+                    A
                   </div>
                   <h4 className="text-lg font-bold text-white">The Flower</h4>
                 </div>
                 <p className="text-sm text-slate-300 leading-relaxed pl-11">
-                  Represents a flourishing, well-structured business supported by WISEMINDS services, progressing towards sustainable growth. Its progressive petals symbolize the journey of an enterprise from its initial conceptualization through structured development, operational maturity, and sustainable growth.
+                  The intertwined flower sitting firmly above Brandmark reflects a Flourishing yet well defined Business from Early Stage to Scale. Supported by WISEMINDS consulting services, its progressive petals symbolize structured maturity and sustainable growth.
                 </p>
               </div>
 
@@ -271,25 +271,25 @@ export default function AboutPage() {
               <div className="p-6 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-8 h-8 rounded-full bg-[#FDE805] text-[#0B1739] flex items-center justify-center font-bold text-xs">
-                    02
+                    B
                   </div>
-                  <h4 className="text-lg font-bold text-[#FDE805]">The Yellow Dot</h4>
+                  <h4 className="text-lg font-bold text-[#FDE805]">The Yellow Dot on &lsquo;I&rsquo;</h4>
                 </div>
                 <p className="text-sm text-slate-300 leading-relaxed pl-11">
-                  Represents the spark that ignites business potential. It represents strategic insight, intellectual energy, innovation, and the confidence required to kickstart, sustain, and scale a business.
+                  The Yellow Dot on &lsquo;I&rsquo; represents a Prompt ignition of the Spark in Business to Kickstart, Sustain &amp; Scale Business through strategic insight, intellectual energy, and structured execution.
                 </p>
               </div>
 
-              {/* Element 3: The Arc */}
+              {/* Element 3: The Ark */}
               <div className="p-6 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-8 h-8 rounded-full bg-[#00129C] border border-[#FDE805]/40 text-[#FDE805] flex items-center justify-center font-bold text-xs">
-                    03
+                    C
                   </div>
-                  <h4 className="text-lg font-bold text-white">The Arc</h4>
+                  <h4 className="text-lg font-bold text-white">The Ark</h4>
                 </div>
                 <p className="text-sm text-slate-300 leading-relaxed pl-11">
-                  Represents the business progress, advancement, and growth enabled through WISEMINDS consulting services. Its upward curvature symbolizes continuous advancement, operational stability, structured guidance, and sustainable enterprise expansion.
+                  The Ark towards extreme right over the Brandmark signifies the assured Growth offered through defined service offerings of WBC*, providing continuous upward momentum and enterprise stability.
                 </p>
               </div>
 

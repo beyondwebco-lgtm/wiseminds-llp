@@ -125,7 +125,7 @@ export const SERVICES: ServiceOffering[] = [
   {
     id: "transition-management",
     slug: "transition-management",
-    title: "Sector-Agnostic Transition Management",
+    title: "Sector Agnostic Transition Management Services",
     category: "Specialized",
     tagline: "Guiding businesses through restructuring, generational handover, and strategic pivots",
     overview:
@@ -159,7 +159,7 @@ export const SERVICES: ServiceOffering[] = [
   {
     id: "incubation-centres",
     slug: "incubation-centres",
-    title: "Incubation Centre Conceptualization & Management",
+    title: "Incubation Centre Concept to Establishment & Management",
     category: "Specialized",
     tagline: "End-to-end setup and administration of enterprise, academic, and regional incubators",
     overview:
@@ -193,7 +193,7 @@ export const SERVICES: ServiceOffering[] = [
   {
     id: "esg-consulting",
     slug: "esg-consulting",
-    title: "MSME-Focused Environmental & Social Governance",
+    title: "MSME Focused Environment & Social Governance",
     category: "Specialized",
     tagline: "Pragmatic, cost-effective ESG integration unlocking supply chain compliance",
     overview:
@@ -227,7 +227,7 @@ export const SERVICES: ServiceOffering[] = [
   {
     id: "quick-commerce",
     slug: "quick-commerce",
-    title: "Quick Commerce Supply Chain & Logistics Management",
+    title: "Quick Commerce Robust Supplychain & Logistics Management",
     category: "Specialized",
     tagline: "Optimizing dark store replenishment, inventory velocity, and micro-fulfillment",
     overview:

@@ -95,18 +95,18 @@ export default function BrandIdentityPage() {
               <div className="bg-white p-7 sm:p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
                 <div className="flex items-center gap-3.5 mb-3">
                   <span className="w-9 h-9 rounded-xl bg-[#2446A8] text-white font-extrabold text-sm flex items-center justify-center shrink-0">
-                    01
+                    A
                   </span>
                   <h3 className="text-xl font-bold text-[#0B1739]">
                     The Flower
                   </h3>
                 </div>
                 <div className="space-y-2 text-sm text-slate-700 leading-relaxed pl-0 sm:pl-12">
-                  <p>
-                    The flower, grounded firmly above the brandmark, represents a flourishing and well-defined business supported by WISEMINDS consulting services.
+                  <p className="font-semibold text-[#0B1739]">
+                    The intertwined flower sitting firmly above Brandmark reflects a Flourishing yet well defined Business from Early Stage to Scale.
                   </p>
                   <p className="text-slate-600">
-                    Its progressive petals symbolize the journey of an enterprise from its initial conceptualization through structured development, operational maturity, and sustainable growth.
+                    Its progressive petals symbolize the journey of an enterprise supported by WISEMINDS consulting services—advancing from its initial conceptualization through structured development, operational maturity, and sustainable growth.
                   </p>
                 </div>
               </div>
@@ -115,38 +115,38 @@ export default function BrandIdentityPage() {
               <div className="bg-white p-7 sm:p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
                 <div className="flex items-center gap-3.5 mb-3">
                   <span className="w-9 h-9 rounded-xl bg-[#F4C430] text-[#0B1739] font-extrabold text-sm flex items-center justify-center shrink-0">
-                    02
+                    B
                   </span>
                   <h3 className="text-xl font-bold text-[#0B1739]">
-                    The Yellow Dot
+                    The Yellow Dot on &lsquo;I&rsquo;
                   </h3>
                 </div>
                 <div className="space-y-2 text-sm text-slate-700 leading-relaxed pl-0 sm:pl-12">
-                  <p>
-                    The yellow dot above the letter &ldquo;I&rdquo; symbolizes the spark that ignites business potential.
+                  <p className="font-semibold text-[#0B1739]">
+                    The Yellow Dot on &lsquo;I&rsquo; represents a Prompt ignition of the Spark in Business to Kickstart, Sustain &amp; Scale Business.
                   </p>
                   <p className="text-slate-600">
-                    It represents strategic insight, intellectual energy, innovation, and the confidence required to kickstart, sustain, and scale a business.
+                    It symbolizes strategic insight, intellectual energy, innovation, and the decisive confidence required to ignite enterprise potential and maintain operational momentum.
                   </p>
                 </div>
               </div>
 
-              {/* 03 - The Arc */}
+              {/* 03 - The Ark */}
               <div className="bg-white p-7 sm:p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
                 <div className="flex items-center gap-3.5 mb-3">
                   <span className="w-9 h-9 rounded-xl bg-[#2446A8] text-white font-extrabold text-sm flex items-center justify-center shrink-0">
-                    03
+                    C
                   </span>
                   <h3 className="text-xl font-bold text-[#0B1739]">
-                    The Arc
+                    The Ark
                   </h3>
                 </div>
                 <div className="space-y-2 text-sm text-slate-700 leading-relaxed pl-0 sm:pl-12">
-                  <p>
-                    The arc positioned toward the extreme right of the brandmark represents WISEMINDS&rsquo; commitment to enabling business progress and growth.
+                  <p className="font-semibold text-[#0B1739]">
+                    The Ark towards extreme right over the Brandmark signifies the assured Growth offered through defined service offerings of WBC*.
                   </p>
                   <p className="text-slate-600">
-                    Its upward curvature symbolizes continuous advancement, operational stability, structured guidance, and sustainable enterprise expansion.
+                    Its upward curvature represents WBC&rsquo;s foundational commitment to enabling business progress, operational stability, structured governance, and sustainable enterprise expansion.
                   </p>
                 </div>
               </div>
@@ -189,7 +189,7 @@ export default function BrandIdentityPage() {
               {/* Content Body */}
               <div className="p-8 sm:p-10 space-y-8">
                 <p className="text-slate-700 text-sm sm:text-base leading-relaxed">
-                  Royal Blue signifies regality, distinction, trust, reliability, protection, calmness, and depth. Traditionally associated with royalty, nobility, and high status, it communicates confidence and professional excellence.
+                  Most widely applied Color Signifies Regality, Luxury of high status, Trust, Reliability, Protection, Calmness &amp; Depth. Traditionally associated with royalty, nobility, and high status.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
@@ -200,7 +200,7 @@ export default function BrandIdentityPage() {
                       <h4>Regality and Distinction</h4>
                     </div>
                     <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                      Royal Blue represents dignity, sophistication, leadership, and a high standard of excellence.
+                      Traditionally associated with royalty, nobility, and high status, Royal Blue represents dignity, sophistication, leadership, and a high standard of professional excellence.
                     </p>
                   </div>
 
@@ -211,7 +211,7 @@ export default function BrandIdentityPage() {
                       <h4>Trust and Reliability</h4>
                     </div>
                     <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                      In colour psychology, Royal Blue reflects confidence, authority, security, dependability, and professionalism. These qualities define the foundation of our consulting relationships.
+                      In color psychology, it represents confidence, authority, security, dependability, and professionalism. These qualities define the foundation of our consulting relationships.
                     </p>
                   </div>
 
@@ -222,7 +222,7 @@ export default function BrandIdentityPage() {
                       <h4>Spirituality and Protection</h4>
                     </div>
                     <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                      Across various cultural and spiritual traditions, blue is associated with wisdom, divine energy, protection, and inner strength.
+                      Often linked to wisdom, divine energy, and the use of amulets to ward off negative influences across various cultures, providing inner strength and resilience.
                     </p>
                   </div>
 
@@ -233,7 +233,7 @@ export default function BrandIdentityPage() {
                       <h4>Calmness and Depth</h4>
                     </div>
                     <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                      Inspired by the vastness of the sea and sky, Royal Blue conveys calmness, clarity, stability, and thoughtful decision-making.
+                      Its connection to the vastness of the sea and sky brings a sense of inner strength, stability, clarity, and thoughtful strategic decision-making.
                     </p>
                   </div>
                 </div>
@@ -273,7 +273,7 @@ export default function BrandIdentityPage() {
               {/* Content Body */}
               <div className="p-8 sm:p-10 space-y-8">
                 <p className="text-slate-700 text-sm sm:text-base leading-relaxed">
-                  Golden Yellow represents the intellectual spark, positive energy, and renewed confidence that inspire businesses to discover opportunities and pursue meaningful growth.
+                  Golden Yellow Spiritually attracts light, vitality, positive energy, and renewed confidence that inspire businesses to discover opportunities and pursue meaningful growth.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-2">
@@ -284,7 +284,7 @@ export default function BrandIdentityPage() {
                       <h4>Joy and Optimism</h4>
                     </div>
                     <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                      Golden Yellow is traditionally associated with light, happiness, positivity, and renewal. It symbolizes a hopeful perspective and the energy required to embrace new possibilities.
+                      Naturally drawing light, happiness, and a sense of renewal, helping to clear away emotional heaviness and embrace new business horizons.
                     </p>
                   </div>
 
@@ -295,7 +295,7 @@ export default function BrandIdentityPage() {
                       <h4>Wisdom and Intellect</h4>
                     </div>
                     <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                      Yellow reflects curiosity, clear thinking, mental clarity, learning, problem-solving, and intellectual development.
+                      Stimulating curiosity, clear thinking, and mental clarity, often attracting opportunities for learning, problem-solving, and strategic clarity.
                     </p>
                   </div>
 
@@ -303,10 +303,10 @@ export default function BrandIdentityPage() {
                   <div className="bg-white p-6 rounded-xl border border-slate-200">
                     <div className="flex items-center gap-2.5 text-[#8F6B00] font-bold text-sm mb-2">
                       <Flame className="w-4 h-4" />
-                      <h4>Personal Power & Confidence</h4>
+                      <h4>Personal Power and Confidence</h4>
                     </div>
                     <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                      In spiritual traditions, yellow is associated with the solar plexus chakra, symbolizing self-esteem, willpower, courage, and personal empowerment.
+                      Linked to the third solar plexus chakra, yellow attracts self-esteem, willpower, and the courage to step into your own authenticity as an enterprise leader.
                     </p>
                   </div>
 
@@ -314,10 +314,10 @@ export default function BrandIdentityPage() {
                   <div className="bg-white p-6 rounded-xl border border-slate-200">
                     <div className="flex items-center gap-2.5 text-[#8F6B00] font-bold text-sm mb-2">
                       <TrendingUp className="w-4 h-4" />
-                      <h4>Prosperity & Good Fortune</h4>
+                      <h4>Prosperity and Good Fortune</h4>
                     </div>
                     <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                      Across many cultures, golden yellow symbolizes prosperity, abundance, financial expansion, opportunity, and business growth.
+                      Are often byproducts. In many traditions, gold and bright yellow are used to manifest wealth, financial expansion—in short, Business Growth.
                     </p>
                   </div>
 
@@ -325,10 +325,10 @@ export default function BrandIdentityPage() {
                   <div className="bg-white p-6 rounded-xl border border-slate-200 md:col-span-2 lg:col-span-2">
                     <div className="flex items-center gap-2.5 text-[#8F6B00] font-bold text-sm mb-2">
                       <Award className="w-4 h-4" />
-                      <h4>Divine Connection & Enlightenment</h4>
+                      <h4>Divine Connection and Enlightenment</h4>
                     </div>
                     <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                      Golden Yellow is spiritually associated with illumination, higher understanding, divine presence, and the discovery of a clear life purpose.
+                      Spiritually, yellow represents the ray of light that guides you toward higher truths, divine presence, and a clear life and enterprise purpose.
                     </p>
                   </div>
                 </div>
