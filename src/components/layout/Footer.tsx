@@ -180,6 +180,15 @@ export function Footer() {
               © {new Date().getFullYear()} {COMPANY.name}. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
+              <a
+                href="https://www.beyondwebco.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
+                Made by BeyondWebCo
+              </a>
+              <span>•</span>
               <Link href="/privacy" className="hover:text-white transition-colors">
                 Privacy Policy
               </Link>

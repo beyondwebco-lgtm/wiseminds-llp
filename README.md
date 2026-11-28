@@ -7,6 +7,25 @@ Official corporate website for **WISEMINDS BUSINESS CONSULTING LLP**, a premier 
 
 ---
 
+## Website Context
+
+| Item | Details |
+| --- | --- |
+| **Business name** | WISEMINDS BUSINESS CONSULTING LLP (WBC) |
+| **Business type** | B2B business-consulting firm |
+| **Primary audience** | MSMEs, startups, founders, leadership teams, and institutional partners across India |
+| **Website type** | Corporate marketing and lead-generation website |
+| **Core objective** | Explain the firm’s advisory practices and sector expertise, build credibility, and convert qualified visitors into consultation requests |
+| **Primary conversion** | The consultation form on `/contact`, submitted to `POST /api/contact` |
+
+The site communicates WBC’s **Purpose. Process. Practice.** consulting framework. It is not an e-commerce site or client portal: it is a trust-building corporate presence where prospective clients can understand the firm’s capabilities and start a consulting conversation.
+
+### Business offering
+
+WISEMINDS advises organisations on process consulting, startup mentoring, executive coaching, transition management, incubation-centre strategy, MSME ESG, quick-commerce supply chain and logistics, and legal process outsourcing. Its sector content covers integrated media, agriculture, rural development, renewable energy, startup legal processes, hospitality, and insurance.
+
+---
+
 ## Brand Identity & Corporate Palette
 
 | Element | Hex Code | Purpose |
@@ -53,6 +72,9 @@ Official corporate website for **WISEMINDS BUSINESS CONSULTING LLP**, a premier 
 ## Local Development
 
 ```bash
+git clone https://github.com/beyondwebco-lgtm/wiseminds-llp.git
+cd wiseminds-llp
+
 # Install dependencies
 npm install
 
@@ -65,3 +87,33 @@ npm run build
 # Start production server
 npm run start
 ```
+
+## Project Structure
+
+```text
+src/
+  app/              Website routes, shared layout, SEO files, and contact API
+  components/       Global header/footer and reusable user-interface components
+  data/             Company profile, navigation, services, sectors, and approach content
+  lib/              Shared utilities
+public/images/      WISEMINDS logo and visual brand assets
+```
+
+## Content Maintenance
+
+- Update business identity, contact details, social links, and corporate facts in `src/data/company.ts`.
+- Update services, sectors, navigation, and the Purpose–Process–Practice approach in their matching files under `src/data/`.
+- Update site pages under `src/app/` when the page structure or long-form copy changes.
+- The global footer is at `src/components/layout/Footer.tsx`; it includes the BeyondWebCo attribution link.
+
+## Contact Form
+
+The contact page sends a consultation request to `POST /api/contact`. The server route validates essential contact details and returns a reference ID. Review the API route and connect the firm’s preferred email/CRM delivery service before relying on it for production enquiry notifications.
+
+## Deployment
+
+Deploy to a Next.js-compatible host such as Vercel. Run `npm run build` before deployment, set any production environment variables in the host dashboard, and connect the `main` branch for continuous deployment.
+
+## Credits
+
+Built by [BeyondWebCo](https://www.beyondwebco.com/).
